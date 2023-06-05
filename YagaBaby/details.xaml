@@ -1,0 +1,19 @@
+﻿<Page x:Class="YagaBaby.details"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:YagaBaby"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="details">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock>Поиск делался при помощи detectron2. Для распознования требовалось создать свой датасет и видео с производства.</TextBlock>
+            <TextBlock>Сложности возникли с json-файлом. При сохранении в файле не было требуемых атрибутов. Вводились вручную.</TextBlock>
+            <TextBlock> Можно использовать любое количество изображений, но это повлияет на сложность редактирвоания json-файла.</TextBlock>
+        </StackPanel>
+        <MediaElement Source="video/detectron.mkv" Margin="10,64,10,0"></MediaElement>
+    </Grid>
+</Page>
